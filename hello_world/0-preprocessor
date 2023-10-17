@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc CFILE.c -o main.c -Wall -Werror -Wextra -pedantic -std=gnu89
+gcc -E hello.c -o CFILE.c
