@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	char caracteres;
-	int entero;
-	long int entero_largo;
-	long long int entero_largo_largo;
-	float flotante;
+	char;
+	int;
+	long int;
+	long long int;
+	float;
 
-	printf("Size of a char: %ld byte(s)\n", sizeof(caracteres));
-	printf("Size of a int: %ld byte(s)\n", sizeof(entero));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(entero_largo));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(entero_largo_largo));
-	printf("Size of a float: %ld byte(s)\n", sizeof(flotante));
+	printf("Size of a char: %ld byte(s)\n", sizeof(char));
+	printf("Size of a int: %ld byte(s)\n", sizeof(int));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %ld byte(s)\n", sizeof(float));
 	return (0);
 }
